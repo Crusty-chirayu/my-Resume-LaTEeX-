@@ -24,5 +24,6 @@ This repository contains resources and templates for creating professional, ATS-
 
 ---
 
-## 📂 Folder Structure
+The details file can be updated and can be given to any AI agent for Similar Resume Generation.
 
+#Created this Repo mainly for Personal use.
