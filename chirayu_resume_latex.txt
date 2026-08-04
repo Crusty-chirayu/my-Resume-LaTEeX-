@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=0.55in]{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+\usepackage{tgbonum}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+\definecolor{darkblue}{HTML}{0A2342}
+\definecolor{accent}{HTML}{1768AC}
+\definecolor{graytext}{HTML}{444444}
+
+\titleformat{\section}{\large\bfseries\color{darkblue}}{}{0em}{}[\color{accent}\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newenvironment{tightList}{\begin{itemize}[noitemsep,topsep=2pt,leftmargin=14pt]}{\end{itemize}}
+
+\begin{document}
+
+%----------- HEADER -----------
+\begin{center}
+{\LARGE \textbf{\textcolor{darkblue}{CHIRAYU BABU JAYASWAL}}}\\[3pt]
+{\small \textcolor{graytext}{Computer Engineering Student $\vert$ Full Stack Developer $\vert$ AI Enthusiast}}\\[6pt]
+{\small
+\faEnvelope\ \href{mailto:chirayujayaswal7@gmail.com}{chirayujayaswal7@gmail.com}
+\quad\textbar\quad
+\faGithub\ \href{https://github.com/Crusty-chirayu}{github.com/Crusty-chirayu}
+\quad\textbar\quad
+\faLinkedin\ \href{https://linkedin.com/in/chirayu-babu-jaysawal-916a6a2a2}{LinkedIn}
+\quad\textbar\quad
+\faGlobe\ \href{https://portfolio-lac-kappa-49.vercel.app/}{Portfolio}
+}
+\end{center}
+\vspace{-6pt}
+
+%----------- PROFILE -----------
+\section*{Profile}
+Fourth-year Computer Engineering student (VTU) with hands-on experience across the full stack, machine learning, and IoT hardware, focused on shipping AI-integrated products that solve real problems. Proven track record in hackathons and competitive programming (CodeWars), with a fast-learning, ownership-driven approach to building end-to-end software and embedded systems.
+
+%----------- EDUCATION -----------
+\section*{Education}
+\textbf{Bachelor of Engineering -- Computer Engineering} \hfill \textit{2022 -- 2026}\\
+Visvesvaraya Technological University (VTU), India \hfill \textit{Currently in 3rd Year}
+
+%----------- TECHNICAL SKILLS -----------
+\section*{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{Frontend} & React, Next.js, Tailwind CSS \\
+\textbf{Backend} & Node.js, Express \\
+\textbf{Databases} & MongoDB, MySQL \\
+\textbf{Languages} & Java (Intermediate), Python, C \\
+\textbf{AI / Machine Learning} & ML Fundamentals, Face Recognition Systems, Gemini API, Prompt Engineering \\
+\textbf{Hardware / IoT} & Arduino, Sensor-based Systems, IoT Fundamentals, Embedded Problem Solving \\
+\textbf{Tools} & Git, GitHub, VS Code \\
+\end{tabularx}
+
+%----------- PROJECTS -----------
+\section*{Projects}
+
+\textbf{CartIQ -- AI Shopping Assistant} \hfill \textit{React, Node.js, MongoDB, Gemini API}
+\begin{tightList}
+\item Built a smart shopping assistant that compares prices and tracks products using AI-powered decision making; \textbf{near production-ready}.
+\item Integrated the Gemini API to power intelligent product recommendations and buying insights.
+\item Designed and implemented full-stack architecture end-to-end -- React frontend, Node/Express backend, MongoDB database.
+\end{tightList}
+
+\textbf{Hotel Management System} \hfill \textit{Java, Swing}
+\begin{tightList}
+\item Developed a full-featured GUI desktop application for end-to-end hotel operations management.
+\item Implemented bookings, room management, billing, and staff management with an intuitive interface.
+\end{tightList}
+
+\textbf{Face Recognition System} \hfill \textit{Python, OpenCV}
+\begin{tightList}
+\item Built a real-time face detection and recognition system using computer vision techniques.
+\item Applied ML fundamentals to train and evaluate a recognition model from scratch.
+\end{tightList}
+
+\textbf{IoT / Hardware Experiments} \hfill \textit{Arduino, C, Sensors}
+\begin{tightList}
+\item Explored software-hardware integration through sensor-based implementations for temperature, motion, and environmental monitoring.
+\end{tightList}
+
+%----------- ACHIEVEMENTS & CERTIFICATIONS -----------
+\section*{Achievements \& Certifications}
+\begin{tightList}
+\item Participated in multiple hackathons, delivering rapid prototypes under time pressure.
+\item Active CodeWars participant with consistent competitive programming practice.
+\item NPTEL -- Machine Learning \textit{(In Progress, 2025)}, with additional NPTEL certifications underway.
+\end{tightList}
+
+%----------- SOFT SKILLS -----------
+\section*{Soft Skills}
+Strong Communication \textbullet\ Team Collaboration \textbullet\ Leadership \& Initiative \textbullet\ Fast Learning \& Adaptability \textbullet\ Ownership Mentality \textbullet\ Product-Focused Thinking \textbullet\ Deep Problem-Solving \textbullet\ Debugging \& Troubleshooting
+
+%----------- ADDITIONAL INFO -----------
+\section*{Additional Information}
+\textbf{Languages:} English, Hindi, Nepali \hfill \textbf{Open To:} Internships, Freelance Projects, Collaborations, Open Source
+
+\end{document}
